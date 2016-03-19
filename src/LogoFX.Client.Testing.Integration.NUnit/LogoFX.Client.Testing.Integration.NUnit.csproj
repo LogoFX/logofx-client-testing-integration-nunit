@@ -30,7 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\Bin\portable\Release.xml</DocumentationFile>
+    <DocumentationFile>..\Bin\portable\Release\LogoFX.Client.Testing.Integration.NUnit.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BuilderRegistrationService.cs" />
