@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Testing.Integration.NUnit", "LogoFX.Client.Testing.Integration.NUnit\LogoFX.Client.Testing.Integration.NUnit.csproj", "{C0496E2E-1D95-4199-9F92-642EAF604FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoFX.Client.Testing.Integration.NUnit.Platform.NET45", "LogoFX.Client.Testing.Integration.NUnit.Platform\net45\LogoFX.Client.Testing.Integration.NUnit.Platform.NET45.csproj", "{1E16B06D-1B3F-4D6A-A381-B4A003F4E498}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{C0496E2E-1D95-4199-9F92-642EAF604FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0496E2E-1D95-4199-9F92-642EAF604FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0496E2E-1D95-4199-9F92-642EAF604FB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E16B06D-1B3F-4D6A-A381-B4A003F4E498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E16B06D-1B3F-4D6A-A381-B4A003F4E498}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E16B06D-1B3F-4D6A-A381-B4A003F4E498}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E16B06D-1B3F-4D6A-A381-B4A003F4E498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
