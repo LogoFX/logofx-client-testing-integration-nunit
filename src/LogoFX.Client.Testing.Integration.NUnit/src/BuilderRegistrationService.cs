@@ -1,5 +1,4 @@
-﻿using Attest.Fake.Builders;
-using Attest.Testing.NUnit;
+﻿using Attest.Testing.NUnit;
 using LogoFX.Client.Testing.Contracts;
 using Solid.Patterns.Builder;
 
