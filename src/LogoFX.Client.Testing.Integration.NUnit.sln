@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogoFX.Client.Testing.Integration.NUnit.NETStandard20", "LogoFX.Client.Testing.Integration.NUnit\netstandard2.0\LogoFX.Client.Testing.Integration.NUnit.NETStandard20.csproj", "{3DCA9B8A-9711-4FA1-B28D-A1D5E7C1CA30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogoFX.Client.Testing.Integration.NUnit", "LogoFX.Client.Testing.Integration.NUnit\LogoFX.Client.Testing.Integration.NUnit.csproj", "{7C1A4431-0C93-41E4-BECE-1EFE9A73372E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3DCA9B8A-9711-4FA1-B28D-A1D5E7C1CA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DCA9B8A-9711-4FA1-B28D-A1D5E7C1CA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DCA9B8A-9711-4FA1-B28D-A1D5E7C1CA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DCA9B8A-9711-4FA1-B28D-A1D5E7C1CA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1A4431-0C93-41E4-BECE-1EFE9A73372E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1A4431-0C93-41E4-BECE-1EFE9A73372E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1A4431-0C93-41E4-BECE-1EFE9A73372E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1A4431-0C93-41E4-BECE-1EFE9A73372E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
