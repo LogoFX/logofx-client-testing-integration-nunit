@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>LogoFX.Client.Testing.Integration.NUnit</AssemblyName>
     <RootNamespace>LogoFX.Client.Testing.Integration.NUnit</RootNamespace>
-    <Version>1.4.1</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -17,10 +17,10 @@
   </PropertyGroup> 
 
   <ItemGroup>
-    <PackageReference Include="Attest.Testing.Contracts" Version="1.4.1-rc5" />
-    <PackageReference Include="Attest.Tests.Core" Version="1.4.1-rc9" />
-    <PackageReference Include="Attest.Tests.NUnit" Version="1.4.1-rc8" />
-    <PackageReference Include="LogoFX.Client.Tests.Shared" Version="1.2.1-rc2" />
+    <PackageReference Include="Attest.Testing.Contracts" Version="2.0.0-rc1" />
+    <PackageReference Include="Attest.Tests.Core" Version="2.0.0-rc2" />
+    <PackageReference Include="Attest.Tests.NUnit" Version="2.0.0-rc2" />
+    <PackageReference Include="LogoFX.Client.Tests.Shared" Version="2.0.0-rc1" />
   </ItemGroup>
 
 </Project>
