@@ -22,6 +22,7 @@
     <PackageReference Include="Attest.Tests.NUnit" Version="2.0.0-rc3" />
     <PackageReference Include="LogoFX.Client.Tests.Shared" Version="2.0.0-rc1" />
     <PackageReference Include="Solid.Core" Version="2.0.0-rc1" />
+    <PackageReference Include="Solid.Patterns.Builder" Version="2.0.0-rc1" />
   </ItemGroup>
 
 </Project>
