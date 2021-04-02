@@ -1,14 +1,26 @@
+version: 2.2.0.{build}
+
 configuration: Release
 
 before_build:
 - cd src
 - nuget restore
 
+after_test:
+  - cd ../devops
+  - cd pack
+  - pack
+
 image: Visual Studio 2019
 
 build:
   verbosity: minimal
-  
+  project: ./src/LogoFX.Client.Testing.Integration.NUnit.sln
+
 test:
   assemblies:    
     - '**\*.tests.dll'
+
+artifacts:
+  - name: Packages
+    path: ./output/*.nupkg
