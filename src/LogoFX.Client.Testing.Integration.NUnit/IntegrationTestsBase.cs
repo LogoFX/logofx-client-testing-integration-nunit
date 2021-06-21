@@ -11,9 +11,9 @@ namespace LogoFX.Client.Testing.Integration.NUnit
     /// </summary>
     /// <typeparam name="TRootObject">The type of the root object.</typeparam>
     /// <typeparam name="TBootstrapper">The type of the bootstrapper.</typeparam>
-    /// <seealso cref="Attest.Testing.NUnit.IntegrationTestsBase{TRootObject, TBootstrapper}" />
+    /// <seealso cref="Integration.NUnit.IntegrationTestsBase{TRootObject, TBootstrapper}" />
     public abstract class IntegrationTestsBase<TRootObject, TBootstrapper> :
-        Attest.Testing.NUnit.IntegrationTestsBase<TRootObject, TBootstrapper>
+        Attest.Testing.Integration.NUnit.IntegrationTestsBase<TRootObject, TBootstrapper>
         where TRootObject : class
         where TBootstrapper : IInitializable, IHaveRegistrator, IHaveResolver, new()
     {
@@ -43,7 +43,7 @@ namespace LogoFX.Client.Testing.Integration.NUnit
     /// <typeparam name="TBootstrapper">The type of the bootstrapper.</typeparam>
     /// <seealso cref="Attest.Testing.NUnit.IntegrationTestsBase{TContainer, TContainerAdapter, TRootObject, TBootstrapper}" />
     public abstract class IntegrationTestsBase<TContainer, TContainerAdapter, TRootObject, TBootstrapper> :
-        Attest.Testing.NUnit.IntegrationTestsBase<TContainer, TContainerAdapter, TRootObject, TBootstrapper>
+        Attest.Testing.Integration.NUnit.IntegrationTestsBase<TContainer, TContainerAdapter, TRootObject, TBootstrapper>
         where TContainerAdapter : class, IIocContainer, IIocContainerAdapter<TContainer>
         where TRootObject : class
         where TBootstrapper : IInitializable, IHaveContainer<TContainer>, new()

@@ -1,6 +1,7 @@
 ﻿using Attest.Testing.Contracts;
-using Attest.Testing.NUnit;
+using Attest.Testing.Core.NUnit;
 using Solid.Patterns.Builder;
+using Solid.Practices.IoC;
 
 namespace LogoFX.Client.Testing.Integration.NUnit
 {
@@ -11,6 +12,19 @@ namespace LogoFX.Client.Testing.Integration.NUnit
     /// <seealso cref="IBuilderRegistrationService" />
     public class BuilderRegistrationService : StepsBase, IBuilderRegistrationService
     {
+        /// <summary>
+        /// Initializes a new instance of <see cref="BuilderRegistrationService"/>
+        /// </summary>
+        /// <param name="dependencyRegistrator"></param>
+        /// <param name="dependencyResolver"></param>
+        public BuilderRegistrationService(
+            IDependencyRegistrator dependencyRegistrator, 
+            IDependencyResolver dependencyResolver)
+        :base(dependencyRegistrator, dependencyResolver)
+        {
+            
+        }
+
         void IBuilderRegistrationService.RegisterBuilder<TService>(IBuilder<TService> builder)
         {
             RegisterBuilderProduct(builder);
