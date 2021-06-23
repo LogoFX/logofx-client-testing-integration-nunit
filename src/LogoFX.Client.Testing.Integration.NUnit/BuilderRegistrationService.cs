@@ -20,10 +20,7 @@ namespace LogoFX.Client.Testing.Integration.NUnit
         public BuilderRegistrationService(
             IDependencyRegistrator dependencyRegistrator, 
             IDependencyResolver dependencyResolver)
-        :base(dependencyRegistrator, dependencyResolver)
-        {
-            
-        }
+        :base(dependencyRegistrator, dependencyResolver) {}
 
         void IBuilderRegistrationService.RegisterBuilder<TService>(IBuilder<TService> builder)
         {
