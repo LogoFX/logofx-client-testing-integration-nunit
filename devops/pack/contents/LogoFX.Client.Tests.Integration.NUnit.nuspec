@@ -12,7 +12,7 @@
     <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
     <description>LogoFX Client Testing Integration NUnit containing base class for unit and integration tests which are based on NUnit.</description>
     <summary>LogoFX Client Testing Integration NUnit containing base class for unit and integration tests which are based on NUnit.</summary>
-    <releaseNotes>Updated dependent packages</releaseNotes>
+    <releaseNotes>Added support for dependency registrator and resolver.</releaseNotes>
     <dependencies>
       <dependency id="Solid.Core" version="2.3.1" />
       <dependency id="Solid.Patterns.Builder" version="2.3.1" />
