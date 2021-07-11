@@ -1,5 +1,5 @@
-﻿using Attest.Testing.Contracts;
-using Attest.Testing.Core.NUnit;
+﻿using Attest.Testing.Core.NUnit;
+using Attest.Testing.FakeData;
 using Solid.Patterns.Builder;
 using Solid.Practices.IoC;
 
